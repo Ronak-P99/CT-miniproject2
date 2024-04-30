@@ -87,6 +87,7 @@ def export_contacts(contacts):
         print("No available file!")
 
 
+
 #I am confident with all my other functions but struggled with this one. If any tips, I will redo it! Thanks and hope everything else works smoothly!
 def import_contacts(filename):
     try:
@@ -101,12 +102,6 @@ def import_contacts(filename):
     
     except FileNotFoundError:
         {}
-
-
-
-
-
-
 
 
 
